@@ -9,7 +9,7 @@ form.addEventListener("submit",(e)=>{
     const authenticated = authentication(username,password)
 
     if(authenticated){
-        window.location.href = "go:HOME"
+        window.location.href = "https://www.nairaland.com/"
     }else{
         alert("wrong")
     }
